@@ -39,6 +39,19 @@
       align-items: center;
       gap: 1rem;
     }
+    .headshot {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+@media (max-width: 600px) {
+  .headshot {
+    width: 80px;
+    height: 80px;
+  }
+}
     .name-block h1 {
       margin: 0;
       font-size: 1.8rem;
@@ -127,7 +140,12 @@
     </nav>
   </div>
 </header>
-
+  <div class="container top-flex">
+    <img src="PhD Profile Picture.jpg"
+         alt="Portrait of Deborah Naa Adorkor Allotey"
+         class="headshot">
+    <div class="name-block">
+      <h1>Deborah Naa Adorkor Allotey</h1>
 <main class="container">
   <section id="about">
     <h2>About</h2>
